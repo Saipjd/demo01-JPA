@@ -45,7 +45,7 @@ public class Demo01JpaApplication {
 	  	
 	  	List<Team> listall = (List<Team>)teamRepository.saveAll(list);
 	  
-		System.out.println("Total : " + listall.size()) ;
+		System.out.println("Repo Team Total : " + listall.size()) ;
 	}
 	
 	public static void main(String[] args) {
